@@ -16,7 +16,7 @@ inputNoAccent = unidecode(inputt)
 searchRegex = re.compile(r'\b(João|Joãozinho|Maria)\b', re.IGNORECASE) # regex para selecionar João, Joãozinho e Maria
 
 changedInput = searchRegex.sub(lambda match: match.group().upper(), inputt) # modifique o texto
-
+dada
 print(changedInput)
 
 tokenizeRegex = re.findall(r'\b\w+\b', inputNoAccent) 
